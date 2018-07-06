@@ -3,7 +3,6 @@
 #include "DatabaseEnv.h"
 #include "Player.h"
 
-
 #define SATCHEL_25 51999
 #define SATCHEL_35 52000
 #define SATCHEL_45 52001
