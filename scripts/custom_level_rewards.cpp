@@ -66,5 +66,5 @@ class custom_level_rewards : public PlayerScript
 
 void AddSC_custom_level_rewards()
 {
-  new custom_level_rewards();
+    new custom_level_rewards();
 }
