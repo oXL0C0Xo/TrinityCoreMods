@@ -1,3 +1,5 @@
+/* Data from Wowhead http://www.wowhead.com/items?filter=82:194;4:3;30305:200 */
+
 UPDATE `item_template`
 SET `stackable` = 200
 WHERE `entry`
