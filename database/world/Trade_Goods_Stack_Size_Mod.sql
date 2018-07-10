@@ -656,5 +656,7 @@ IN (
     44987, /* Valiant's Seal */
     45087, /* Runed Orb */
     47556, /* Crusader Orb */
-    49908 /* Primordial Saronite */
+    49908, /* Primordial Saronite */
+    
+    3372 /* Leaded Vial */
 );
