@@ -335,6 +335,7 @@ IN (
     17056, /* Light Feather */
     17194, /* Holiday Spices */
     17203, /* Sulfuron Ingot */
+    17771, /* Elementium Bar */
     18240, /* Ogre Tannin */
     18335, /* Pristine Black Diamond */
     18562, /* Elementium Ingot */
