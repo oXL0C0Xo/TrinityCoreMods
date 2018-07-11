@@ -69,6 +69,7 @@ IN (
     3135, /* Broken Sharp Throwing Axe */
     3137, /* Broken Deadly Throwing Axe */
     3164, /* Discolored Worg Heart */
+    3372, /* Leaded Vial */
     3173, /* Bear Meat */
     3182, /* Spider's Silk */
     3355, /* Wild Steelbloom */
@@ -196,6 +197,7 @@ IN (
     7966, /* Solid Grinding Stone */
     7971, /* Black Pearl */
     7972, /* Ichor of Undeath */
+    7973, /* Big-mouth Clam */
     7974, /* Zesty Clam Meat */
     8150, /* Deeprock Salt */
     8153, /* Wildvine */
@@ -560,6 +562,7 @@ IN (
     36933, /* Forest Emerald */
     36934, /* Eye of Zul */
     37101, /* Ivory Ink */
+    37602, /* Armor Vellum II */
     37663, /* Titansteel Bar */
     37700, /* Crystallized Air */
     37701, /* Crystallized Earth */
@@ -646,6 +649,7 @@ IN (
     43125, /* Darkflame Ink */
     43126, /* Ink of the Sea */
     43127, /* Snowfall Ink */
+    43145, /* Armor Vellum III */
     43501, /* Northern Egg */
     44128, /* Arctic Fur */
     44501, /* Goblin-Machined Piston */
@@ -656,7 +660,5 @@ IN (
     44987, /* Valiant's Seal */
     45087, /* Runed Orb */
     47556, /* Crusader Orb */
-    49908, /* Primordial Saronite */
-    
-    3372 /* Leaded Vial */
+    49908 /* Primordial Saronite */
 );
