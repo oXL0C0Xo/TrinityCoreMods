@@ -586,6 +586,8 @@ IN (
     39341, /* Silvery Pigment */
     39342, /* Nether Pigment */
     39343, /* Azure Pigment */
+    39349, /* Weapon Vellum */
+    39350, /* Weapon Vellum II */
     39354, /* Light Parchment */
     39469, /* Moonglow Ink */
     39681, /* Handful of Cobalt Bolts */
@@ -650,6 +652,7 @@ IN (
     43126, /* Ink of the Sea */
     43127, /* Snowfall Ink */
     43145, /* Armor Vellum III */
+    43146, /* Weapon Vellum III */
     43501, /* Northern Egg */
     44128, /* Arctic Fur */
     44501, /* Goblin-Machined Piston */
