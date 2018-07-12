@@ -3,6 +3,7 @@
 #include "Player.h"
 #include "Mail.h"
 #include "Item.h"
+#include "ObjectMgr.h"
 
 #define SATCHEL_25 51999
 #define SATCHEL_35 52000
@@ -92,10 +93,9 @@ class custom_level_rewards : public PlayerScript
             uint32 entry = it.first;
             uint32 amount = it.second;
 
-            //Need to figure out what this does
-            //ItemTemplate const* item_proto = eObjectMgr->GetItemTemplate(entry);
-            //ASSERT(item_proto);
-            //ASSERT(amount < 1 || (item_proto->MaxCount > 0 && amount > uint32(item_proto->MaxCount)));
+            ItemTemplate const* item_proto = sObjectMgr->GetItemTemplate(entry);
+            ASSERT(item_proto);
+            ASSERT(amount < 1 || (item_proto->MaxCount > 0 && amount > uint32(item_proto->MaxCount)));
             if (Item* item = Item::CreateItem(entry, amount))
             {
                 item->SaveToDB(trans);
@@ -105,7 +105,7 @@ class custom_level_rewards : public PlayerScript
 
         draft.SendMailTo(trans, MailReceiver(player), sender, MAIL_CHECK_MASK_NONE, delay);
         CharacterDatabase.CommitTransaction(trans);
-        //Need to figure out how to update the player, so that it shows there is a new mail
+        //Need to figure out how to update the player inbox, so that it shows the new mail
     }
 };
 
