@@ -95,7 +95,7 @@ class custom_level_rewards : public PlayerScript
 
             ItemTemplate const* item_proto = sObjectMgr->GetItemTemplate(entry);
             ASSERT(item_proto);
-            ASSERT(amount < 1 || (item_proto->MaxCount > 0 && amount > uint32(item_proto->MaxCount)));
+            ASSERT(amount < 1 || amount > uint32(item_proto->MaxCount));
             if (Item* item = Item::CreateItem(entry, amount))
             {
                 item->SaveToDB(trans);
@@ -109,6 +109,10 @@ class custom_level_rewards : public PlayerScript
     }
 };
 
+void AddSC_custom_level_rewards()
+{
+  new custom_level_rewards();
+}
 void AddSC_custom_level_rewards()
 {
   new custom_level_rewards();
