@@ -113,7 +113,3 @@ void AddSC_custom_level_rewards()
 {
   new custom_level_rewards();
 }
-void AddSC_custom_level_rewards()
-{
-  new custom_level_rewards();
-}
