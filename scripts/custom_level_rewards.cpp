@@ -105,7 +105,6 @@ class custom_level_rewards : public PlayerScript
 
         draft.SendMailTo(trans, MailReceiver(player), sender, MAIL_CHECK_MASK_NONE, delay);
         CharacterDatabase.CommitTransaction(trans);
-        //Need to figure out how to update the player inbox, so that it shows the new mail
     }
 };
 
