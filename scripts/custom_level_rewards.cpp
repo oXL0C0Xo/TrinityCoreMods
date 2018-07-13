@@ -25,7 +25,7 @@ class custom_level_rewards : public PlayerScript
         std::string text = "Here are your rewards!";
         uint32 receiverGUIDLow = player->GetGUID().GetCounter();
         uint32 senderGUIDLow = 0;
-        uint32 stationary = MAIL_STATIONERY_DEFAULT;
+        uint32 stationary = MAIL_STATIONERY_GM;
         uint32 delay = 0;
         uint32 money = 0;
         uint32 cod = 0;
