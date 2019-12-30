@@ -21,7 +21,7 @@ class custom_level_rewards : public PlayerScript
 
     void OnLevelChanged(Player* player, uint8 oldLevel)
     {
-        std::string subject = "Congratulations on Level " + std::to_string(player->getLevel());
+        std::string subject = "Congratulations on Level " + std::to_string(player->GetLevel());
         std::string text = "Here are your rewards!";
         uint32 receiverGUIDLow = player->GetGUID().GetCounter();
         uint32 senderGUIDLow = 0;
@@ -31,7 +31,7 @@ class custom_level_rewards : public PlayerScript
         uint32 cod = 0;
         std::map<uint32, uint32> items;
 
-        uint8 newLevel = player->getLevel();
+        uint8 newLevel = player->GetLevel();
 
         if (newLevel < 15)
         {
